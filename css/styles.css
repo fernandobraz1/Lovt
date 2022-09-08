@@ -33,10 +33,26 @@ main {
     color: #AAAAAA;
 }
 
-.menu{
+.hamburguer-menu{
     float: right;
     margin-top: 10px;
     margin-right: 10px;
+}
+
+.navbar{
+    float: right;
+    margin-top: 10px;
+    margin-right: 10px;
+    display: none;
+}
+
+@media(min-width: 480px) {
+    .hamburguer-menu {
+        display: none;
+    }
+    .navbar {
+        display: block;
+    }
 }
 
 .banner {
